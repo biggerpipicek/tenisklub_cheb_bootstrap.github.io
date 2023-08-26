@@ -23,12 +23,10 @@ body {
     }
 
     #hero {
-        display: grid;
-        grid-template-columns: auto;
+        flex-direction: column;
     }
 
     #footer {
-        display: grid;
-        grid-template-columns: auto;
+        flex-direction: column;
     }
 }
