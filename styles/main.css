@@ -1,9 +1,9 @@
-.container#hero {
+#hero {
     position: relative;
     top: 75px;
 }
 
-.container#footer {
+#footer {
     position: relative;
     top: 150px;
 }
