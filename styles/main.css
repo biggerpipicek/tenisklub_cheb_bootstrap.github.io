@@ -1,10 +1,9 @@
 body {
     background-image: url("../imgs/back.jpg");
     background-position: center;
-    overflow: hidden;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 105vh;
+    min-height: 120vh;
 }
 
 #hero {
