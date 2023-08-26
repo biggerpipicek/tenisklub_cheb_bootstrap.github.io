@@ -1,9 +1,8 @@
 body {
-    background-image: url("styles/imgs/back.jpg");
+    background-image: url("../imgs/back.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    filter: opacity(60%);
 }
 
 #hero {
