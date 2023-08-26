@@ -19,7 +19,7 @@ body {
 /* MOBILE */
 @media (max-width: 550px) {
     body {
-        min-height: 175vh;
+        min-height: 265vh;
     }
 
     #hero {
