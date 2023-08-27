@@ -79,14 +79,17 @@
     </div>
     <!-- FORMULÁŘ-->
     <div class="container" id="form">
-        <div class="mb-3 bg-light">
-            <label for="mailInput" class="form-label">E-mail</label>
-            <input type="email" class="form-control" id="mailInput" placeholder="vzor.email@email.cz">
-        </div>
-        <div class="mb-3 bg-light">
-            <label for="textInput" class="form-label">Zadejte text</label>
-            <textarea class="form-control" id="textInput" rows="3"></textarea>
-        </div>
+        <form class="form bg-light text-center" action="mailto:michael.phillips@seznam.cz" method="post">
+            <div class="mb-3">
+                <label for="mailInput" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="mailInput" placeholder="vzor.email@email.cz">
+            </div>
+            <div class="mb-3">
+                <label for="textInput" class="form-label">Zadejte text</label>
+                <textarea class="form-control" id="textInput" rows="3"></textarea>
+            </div>
+            <button type="button" class="btn btn-primary">Odeslat</button>
+        </form>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
