@@ -9,5 +9,12 @@
 }
 
 #infoGallery {
+    position: relative;
+    top: 75px;
     grid-template-columns: auto auto;
+}
+
+#collapse {
+    position: relative;
+    top: 25px;
 }
