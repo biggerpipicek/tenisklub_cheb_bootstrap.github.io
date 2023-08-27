@@ -1,7 +1,7 @@
 #infoGallery {
     position: relative;
     top: 75px;
-    grid-template-columns: auto auto;
+    flex-wrap: wrap;
 }
 
 #collapse {
