@@ -7,3 +7,7 @@
     position: relative;
     top: 225px;
 }
+
+#infoGallery {
+    grid-template-columns: auto auto;
+}
