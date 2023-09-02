@@ -1,0 +1,8 @@
+body {
+    background-repeat: repeat-y;
+}
+
+.produkty-container {
+    grid-template-columns: auto auto auto;
+    grid-gap: 50px;
+}
