@@ -1,3 +1,7 @@
+body {
+    height: 130vh;
+}
+
 #contact {
     position: relative;
     top: 75px;
