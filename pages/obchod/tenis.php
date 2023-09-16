@@ -37,10 +37,10 @@
                         <a href="#" class="nav-link active dropdown-toggle" id="dropdownMenu" data-bs-toggle="dropdown" role="button" aria-expanded="false">Obchod</a>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenu">
                             <li>
-                                <a href="tenis.html" class="dropdown-item">Tenis</a>
+                                <a href="tenis.php" class="dropdown-item">Tenis</a>
                             </li>
                             <li>
-                                <a href="doplnky.html" class="dropdown-item">Doplňky</a>
+                                <a href="doplnky.php" class="dropdown-item">Doplňky</a>
                             </li>
                         </ul>
                     </li>
