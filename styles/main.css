@@ -3,7 +3,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 120vh;
+    min-height: 150vh;
 }
 
 #hero {
@@ -19,7 +19,7 @@ body {
 /* MOBILE */
 @media (max-width: 550px) {
     body {
-        min-height: 265vh;
+        min-height: 300vh;
     }
 
     #hero {
