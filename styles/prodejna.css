@@ -1,13 +1,13 @@
 #infoGallery {
     position: relative;
     top: 75px;
-    grid-template-columns: "a a";
+    grid-template-areas: "a a";
     grid-gap: 25px;
 }
 
 @media screen and (max-width: 680px) {
     #infoGallery {
-        grid-template-columns: "a";
+        grid-template-areas: "a";
     }
 
 }
