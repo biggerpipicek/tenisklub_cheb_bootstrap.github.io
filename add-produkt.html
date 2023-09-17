@@ -50,32 +50,32 @@
     </nav>
 
     <!-- KONTEJNER FORMULÁŘ -->
-    <div class="container">
-        <form method="post">
+    <div class="container produkt-form">
+        <form method="post" class="bg-light p-3">
             <div class="mb-3">
               <label for="product-name" class="form-label">Název produktu</label>
               <input type="text" class="form-control" id="product-name" aria-describedby="product-name" required>
             </div>
             <div class="mb-3">
               <label for="product-desc" class="form-label">Popis produktu</label>
-              <textarea class="form-control" rows="3" id="product-desc"></textarea>
+              <textarea class="form-control" rows="3" id="product-desc" required></textarea>
             </div>
             <div class="mb-3">
                 <label for="product-specs" class="form-label">Specifikace produktu</label>
-                <textarea class="form-control" rows="3" id="product-specs"></textarea>
+                <textarea class="form-control" rows="3" id="product-specs" required></textarea>
             </div>
             <div class="mb-3">
                 <label for="product-desc" class="form-label">Cena produktu</label>
-                <input type="text" class="form-control" id="product-desc">
+                <input type="text" class="form-control" id="product-desc" required>
             </div>
-            <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
-                <option>Vybrat kategorii produktu</option>
+            <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example" required>
+                <option value="">Vybrat kategorii produktu</option>
                 <option value="Tenis">Tenis</option>
                 <option value="Doplňky">Doplňky</option>
             </select>
             <div class="mb-3">
                 <label for="formFile" class="form-label">Vybrat fotku produktu</label>
-                <input class="form-control" type="file" id="formFile">
+                <input class="form-control" type="file" id="formFile" required>
             </div>
             <button type="submit" class="btn btn-primary">Odeslat</button>
           </form>
