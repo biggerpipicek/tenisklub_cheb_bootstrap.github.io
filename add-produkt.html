@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VypletemeRaketu.cz - Přidat produkt</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/add-produkt.css">
+</head>
+<body>
+    <!-- NAVIGACE -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a href="index.html" class="navbar-brand">
+                <b>VypletemeRaketu.cz</b>
+            </a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-center" id="navbarMenu">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Domů</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/rakety/vypletani-raket.html">Vyplétání raket</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/prodejna/prodejna.html">Prodejna</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/kontakt.html">Kontakt</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" id="dropdownMenu" data-bs-toggle="dropdown" role="button" aria-expanded="false">Obchod</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu">
+                            <li>
+                                <a href="pages/obchod/tenis.php" class="dropdown-item">Tenis</a>
+                            </li>
+                            <li>
+                                <a href="pages/obchod/doplnky.php" class="dropdown-item">Doplňky</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- KONTEJNER FORMULÁŘ -->
+    <div class="container">
+        <form>
+            <div class="mb-3">
+              <label for="product-name" class="form-label">Název produktu</label>
+              <input type="text" class="form-control" id="product-name" aria-describedby="product-name" required>
+            </div>
+            <div class="mb-3">
+              <label for="product-desc" class="form-label">Popis produktu</label>
+              <textarea class="form-control" rows="3" id="product-desc"></textarea>
+            </div>
+            <div class="mb-3">
+                <label for="product-specs" class="form-label">Specifikace produktu</label>
+                <textarea class="form-control" rows="3" id="product-specs"></textarea>
+            </div>
+            <div class="mb-3">
+                <label for="product-desc" class="form-label">Cena produktu</label>
+                <input type="text" class="form-control" id="product-desc">
+            </div>
+            <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                <option>Vybrat kategorii produktu</option>
+                <option value="Tenis">Tenis</option>
+                <option value="Doplňky">Doplňky</option>
+            </select>
+            <div class="mb-3">
+                <label for="formFile" class="form-label">Vybrat fotku produktu</label>
+                <input class="form-control" type="file" id="formFile">
+            </div>
+            <button type="submit" class="btn btn-primary">Odeslat</button>
+          </form>
+    </div>
+</body>
+</html>

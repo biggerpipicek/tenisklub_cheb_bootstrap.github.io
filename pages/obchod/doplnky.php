@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -54,7 +54,7 @@
             <img src="../../imgs/products_doplnky/tlumitko.jpg" alt="" class="card-img-top">
             <div class="card-body">
                 <h3 class="card-title">Tenisové tlumítko Babolat Sonic Damp - se zvukem</h3>
-                <p class="card-text">Píšťalka s nastavitelnou intenzitou. Čím výše v raketě tlumítko umístíte, tím je píšťalka hlasitější.</p>
+                <p class="card-text" id="card-text">Píšťalka s nastavitelnou intenzitou. Čím výše v raketě tlumítko umístíte, tím je píšťalka hlasitější.</p>
                 <p class="h2 card-title pricing-card-title">185 Kč</p>
                 <a type="button" class="btn btn-primary">Zobrazit produkt</a>
             </div>
@@ -63,7 +63,7 @@
             <img src="../../imgs/products_doplnky/rucnik_wimble.jpg" alt="" class="card-img-top">
             <div class="card-body">
                 <h3 class="card-title">Ručník - osuška Wimbledon THE CHAMPIONSHIP fialový 2023</h3>
-                <p class="card-text">Ručník je vyroben exkluzivní bavlněnou technologií Hygro, je hebký a má vysokou savost, díky čemuž si jistě získá své příznivce.</p>
+                <p class="card-text" id="card-text">Ručník je vyroben exkluzivní bavlněnou technologií Hygro, je hebký a má vysokou savost, díky čemuž si jistě získá své příznivce.</p>
                 <p class="h2 card-title pricing-card-title">1499 Kč</p>
                 <a type="button" class="btn btn-primary">Zobrazit produkt</a>
             </div>
@@ -72,7 +72,7 @@
             <img src="../../imgs/products_doplnky/potitko_adidas.jpg" alt="" class="card-img-top">
             <div class="card-body">
                 <h3 class="card-title">Tenisové potítko Adidas velké černé CF6278</h3>
-                <p class="card-text">Tato potítka na zápěstí jsou vyrobená z elastické směsi savých materiálů. Na přední straně mají vyšitý kontrastní znak Adidas.</p>
+                <p class="card-text" id="card-text">Tato potítka na zápěstí jsou vyrobená z elastické směsi savých materiálů. Na přední straně mají vyšitý kontrastní znak Adidas.</p>
                 <p class="h2 card-title pricing-card-title">405 Kč</p>
                 <a type="button" class="btn btn-primary">Zobrazit produkt</a>
             </div>
@@ -81,7 +81,7 @@
             <img src="../../imgs/products_doplnky/rucnik_towel.jpg" alt="" class="card-img-top">
             <div class="card-body">
                 <h3 class="card-title">Ručník Head TOWEL S černý</h3>
-                <p class="card-text">Ručník Head TOWEL S  je měkký, bavlněný s rozměry 50 x 100 cm.<br>Příjemný a měkký materiál- 100% bavlna.</p>
+                <p class="card-text" id="card-text">Ručník Head TOWEL S  je měkký, bavlněný s rozměry 50 x 100 cm.<br>Příjemný a měkký materiál- 100% bavlna.</p>
                 <p class="h2 card-title pricing-card-title">410 Kč</p>
                 <a type="button" class="btn btn-primary">Zobrazit produkt</a>
             </div>
@@ -90,7 +90,7 @@
             <img src="../../imgs/products_doplnky/babolat_taska.jpg" alt="" class="card-img-top">
             <div class="card-body">
                 <h3 class="card-title">Babolat Rafael Nadal Pure Aero RH X6</h3>
-                <p class="card-text">Babolat Racketbag Pure 6er - kompaktní verze profesionálního bagu: dobrý poměr objemu a úložného prostoru!</p>
+                <p class="card-text" id="card-text">Babolat Racketbag Pure 6er - kompaktní verze profesionálního bagu: dobrý poměr objemu a úložného prostoru!</p>
                 <p class="h2 card-title pricing-card-title">4270 Kč</p>
                 <a type="button" class="btn btn-primary">Zobrazit produkt</a>
             </div>
@@ -99,7 +99,7 @@
             <img src="../../imgs/products_doplnky/fila_bunda.jpg" alt="" class="card-img-top">
             <div class="card-body">
                 <h3 class="card-title">Fila Bruno Tréninková Bunda</h3>
-                <p class="card-text">Bruno Tréninková Bunda Muži - Tmavě Modrá, Vícebarevné.</p>
+                <p class="card-text" id="card-text">Bruno Tréninková Bunda Muži - Tmavě Modrá, Vícebarevné.</p>
                 <p class="h2 card-title pricing-card-title">2260 Kč</p>
                 <a type="button" class="btn btn-primary">Zobrazit produkt</a>
             </div>
@@ -108,7 +108,7 @@
             <img src="../../imgs/products_doplnky/nike_triko.webp" alt="" class="card-img-top">
             <div class="card-body">
                 <h3 class="card-title">Nike Dri-Fit RAFA Tričko</h3>
-                <p class="card-text">V tomto svršku odvádějícím pot si zahraj jako Rafa.</p>
+                <p class="card-text" id="card-text">V tomto svršku odvádějícím pot si zahraj jako Rafa.</p>
                 <p class="h2 card-title pricing-card-title">2260 Kč</p>
                 <a type="button" class="btn btn-primary">Zobrazit produkt</a>
             </div>
@@ -117,7 +117,7 @@
             <img src="../../imgs/products_doplnky/nike_sortky.jpg" alt="" class="card-img-top">
             <div class="card-body">
                 <h3 class="card-title">Nike Dri-Fit Advantage Count Šortky</h3>
-                <p class="card-text">S těmito šortkami posuneš svou hru na vyšší úroveň.</p>
+                <p class="card-text" id="card-text">S těmito šortkami posuneš svou hru na vyšší úroveň.</p>
                 <p class="h2 card-title pricing-card-title">1630 Kč</p>
                 <a type="button" class="btn btn-primary">Zobrazit produkt</a>
             </div>

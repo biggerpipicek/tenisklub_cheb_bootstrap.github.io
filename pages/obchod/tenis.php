@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -54,7 +54,7 @@
             <img src="../../imgs/products_tenis/minios_ultra.webp" class="card-img-top">
             <div class="card-body">
                 <h3 class="card-title">Wilson Minions Ultra 100</h3>
-                <p class="card-text">Tady je další člen řady Wilson Ultra: Wilson Ultra 100! Přesněji řečeno Wilson Minions Ultra 100!</p>
+                <p class="card-text" id="card-text">Tady je další člen řady Wilson Ultra: Wilson Ultra 100! Přesněji řečeno Wilson Minions Ultra 100!</p>
                 <p clpass="h2 card-title pricing-card-title">6090 Kč</p>
                 <a type="button" class="btn btn-primary">Zobrazit produkt</a>
             </div>
@@ -63,7 +63,7 @@
             <img src="../../imgs/products_tenis/wilson_blade.webp" alt="" class="card-img-top">
             <div class="card-body">
                 <h3 class="card-title">Wilson Blade 100L V8</h3>
-                <p class="card-text">S raketou Blade 100L V8 vytváří Wilson inovativní raketu, která vylepšuje řadu Blade V8 a představuje ovladatelnější raketu.</p>
+                <p class="card-text" id="card-text">S raketou Blade 100L V8 vytváří Wilson inovativní raketu, která vylepšuje řadu Blade V8 a představuje ovladatelnější raketu.</p>
                 <p class="h2 card-title pricing-card-title">6020 Kč</p>
                 <a type="button" class="btn btn-primary">Zobrazit produkt</a>
             </div>
@@ -72,7 +72,7 @@
             <img src="../../imgs/products_tenis/micky_us_open.jpg" alt="" class="card-img-top">
             <div class="card-body">
                 <h3 class="card-title">Tenisové míčky US Open 4 ks žluté</h3>
-                <p class="card-text">Závodní tenisové míčky na tvrdý povrch nebo antuku. Tuba 4 míčků.</p>
+                <p class="card-text" id="card-text">Závodní tenisové míčky na tvrdý povrch nebo antuku. Tuba 4 míčků.</p>
                 <p class="h2 card-title pricing-card-title">169 Kč</p>
                 <a type="button" class="btn btn-primary">Zobrazit produkt</a>
             </div>
@@ -81,7 +81,7 @@
             <img src="../../imgs/products_tenis/micky_dunlop.jpg" alt="" class="card-img-top">
             <div class="card-body">
                 <h3 class="card-title">Tenisové míčky Dunlop Fort All Court 2 × 4</h3>
-                <p class="card-text">Tenisový míček Dunlop Fort pro kontrolované a pohodlné odpaly.</p>
+                <p class="card-text" id="card-text">Tenisový míček Dunlop Fort pro kontrolované a pohodlné odpaly.</p>
                 <p class="h2 card-title pricing-card-title">379 Kč</p>
                 <a type="button" class="btn btn-primary">Zobrazit produkt</a>
             </div>
